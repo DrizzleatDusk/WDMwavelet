@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wdmwavelet"
+version = "0.0.1"
+authors = [
+    {name = "DrizzleatDusk", email = "xgxx1008@outlook.com"},
+]
+description = "WDM wavelet transform."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "scipy",
+
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-or-later"
+
+[project.urls]
+Repository = "https://github.com/DrizzleatDusk/WDMwavelet"
+Documentation = "https://wdmwavelet.readthedocs.io/en/latest/index.html"
